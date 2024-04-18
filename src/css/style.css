@@ -1,0 +1,92 @@
+body {
+    font-family: "Outfit", sans-serif;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-blue-main);
+}
+.container{
+    width: 350px;
+    height: 530px;
+    border-radius: 10px;
+    background-color: var(--dark-blue-card);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.title{
+    font-size: 18px;
+    color: var(--white);
+}
+
+.description{
+    font-size: 16px;
+    font-weight: normal;
+    color: var(--soft-blue);
+}
+
+ .title,.description, .relevant-data, footer{
+    padding: 20px 20px 0 20px;
+}
+
+
+.product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-image{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+
+.relevant-data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.price{
+    color: var(--cyan);
+}
+
+.time-left{
+    color: var(--soft-blue);
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    color: var(--soft-blue);
+}
+
+footer span{
+    color: var(--white);
+}
+
+.profile-picture{
+    height: 26px;
+    width: 26px;
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    padding-top: 20px;
+    color: var(--white);
+  }
+
+  .attribution a {
+    color: var(--cyan);
+  }
