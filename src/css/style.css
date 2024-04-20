@@ -11,13 +11,15 @@ main{
     background-color: var(--dark-blue-main);
 }
 .container{
-    width: 350px;
-    height: 530px;
-    border-radius: 10px;
+    width: 340px;
+    height: 500px;
+    border-radius: 15px;
     background-color: var(--dark-blue-card);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 20px 20px 20px 20px;
+    line-height: 30px;
 }
 
 
@@ -32,35 +34,30 @@ main{
     color: var(--soft-blue);
 }
 
- .title,.description, .relevant-data, footer{
-    padding: 20px 20px 0 20px;
-}
-
-
-.product{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .product-image{
     height: 300px;
-    width: 300px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
-
 
 .relevant-data{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-content: baseline;
 }
 
 .price{
     color: var(--cyan);
+
 }
 
 .time-left{
     color: var(--soft-blue);
+}
+
+.price, .time-left, footer{
+    padding: 20px 20px 0 0px;
+
 }
 
 footer{
@@ -68,6 +65,7 @@ footer{
     flex-direction: row;
     gap: 15px;
     color: var(--soft-blue);
+
 }
 
 footer span{
