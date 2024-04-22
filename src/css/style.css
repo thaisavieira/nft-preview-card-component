@@ -12,14 +12,14 @@ main{
 }
 .container{
     width: 340px;
-    height: 500px;
+    height: 520px;
     border-radius: 15px;
     background-color: var(--dark-blue-card);
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 20px 20px 20px 20px;
-    line-height: 30px;
+    gap: 5px;
 }
 
 
@@ -43,16 +43,21 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-content: baseline;
 }
 
 .price{
     color: var(--cyan);
+    display: flex;
+    align-self: baseline;
+    gap: 5px;
 
 }
 
 .time-left{
     color: var(--soft-blue);
+    display: flex;
+    align-self: baseline;
+    gap: 5px;
 }
 
 .price, .time-left, footer{
@@ -63,6 +68,7 @@ main{
 footer{
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 15px;
     color: var(--soft-blue);
 
