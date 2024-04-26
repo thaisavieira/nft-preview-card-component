@@ -26,6 +26,7 @@ main{
 .title{
     font-size: 18px;
     color: var(--white);
+    cursor: pointer;
 }
 
 .description{
@@ -33,10 +34,21 @@ main{
     font-weight: normal;
     color: var(--soft-blue);
 }
-
 .product-image{
     height: 300px;
     border-radius: 15px;
+    cursor: pointer;
+    opacity: 0.3;
+}
+
+.product:hover{
+    border-radius: 15px;
+    opacity: 0.8;
+    background: url(/images/icon-view.svg);
+    background-color: aqua;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .relevant-data{
@@ -76,11 +88,16 @@ footer{
 
 footer span{
     color: var(--white);
+    cursor: pointer;
 }
 
 .profile-picture{
     height: 26px;
     width: 26px;
+}
+
+ .title:hover, footer span:hover{
+    color: var(--cyan);
 }
 
 
