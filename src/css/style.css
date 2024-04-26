@@ -38,7 +38,7 @@ main{
     height: 300px;
     border-radius: 15px;
     cursor: pointer;
-    opacity: 0.3;
+    opacity: 0.5;
 }
 
 .product:hover{
