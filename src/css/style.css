@@ -9,47 +9,68 @@ main{
     justify-content: center;
     align-items: center;
     background-color: var(--dark-blue-main);
+
 }
 .container{
-    width: 340px;
-    height: 520px;
-    border-radius: 15px;
+    width: 35rem;
+    height: 58rem;
+    border-radius: 1.5rem;
     background-color: var(--dark-blue-card);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 20px 20px 20px 20px;
-    gap: 5px;
+    padding: 2rem;
+    gap: 2rem;
 }
 
+.product{
+    width: 100%;
+    height: 100vh;
+}
+
+.product{
+    position: relative;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.product::after{
+    content: url(/images/icon-view.svg);
+    background-color: var(--cyan);
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.25s ease;
+}
+
+.product:hover::after{
+    opacity: 0.8;
+}
+
+.product img{
+    width: 100%;
+    display: block;
+}
 
 .title{
-    font-size: 18px;
+    font-size: 2.3rem;
+    font-weight: 400;
     color: var(--white);
     cursor: pointer;
 }
 
 .description{
-    font-size: 16px;
-    font-weight: normal;
+    font-size: 1.8rem;
+    letter-spacing: 0.15rem;
+    font-weight: 400;
     color: var(--soft-blue);
 }
-.product-image{
-    height: 300px;
-    border-radius: 15px;
-    cursor: pointer;
-    opacity: 0.6;
-}
 
-.product:hover{
-    border-radius: 15px;
-    opacity: 0.8;
-    background: url(/images/icon-view.svg);
-    background-color: aqua;
-    background-size: 40px;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
 .relevant-data{
     display: flex;
@@ -59,30 +80,33 @@ main{
 
 .price{
     color: var(--cyan);
+    font-weight: 500;
+    font-size: 1.6rem;
     display: flex;
     align-self: baseline;
-    gap: 5px;
+    gap: 0.5rem;
 
 }
 
 .time-left{
     color: var(--soft-blue);
+    font-size: 1.6rem;
     display: flex;
     align-self: baseline;
-    gap: 5px;
+    gap: 0.5rem;
 }
 
-.price, .time-left, footer{
-    padding: 20px 20px 0 0px;
-
+hr{
+    border-color: var(--soft-blue);
 }
 
 footer{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 15px;
+    gap: 1.5rem;
     color: var(--soft-blue);
+    font-size: 1.6rem;
 
 }
 
@@ -92,8 +116,7 @@ footer span{
 }
 
 .profile-picture{
-    height: 26px;
-    width: 26px;
+    height: 2.6rem;
 }
 
  .title:hover, footer span:hover{
@@ -102,9 +125,9 @@ footer span{
 
 
 .attribution {
-    font-size: 11px;
+    font-size: 1.1rem;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 2rem;
     color: var(--white);
   }
 
