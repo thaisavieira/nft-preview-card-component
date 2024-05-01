@@ -51,7 +51,7 @@ My task was to build out the project to the designs inside the `/design` folder.
 
 ## My process
 
-You'll read about my process soon on my blog!
+You can read about my process of building this project on my blog:[NFT Preview Card Component Challenge from Frontend Mentor](https://dev.to/thaisavieira/nft-preview-card-component-challenge-from-frontend-mentor-2471)
 
 ### Built with
 
