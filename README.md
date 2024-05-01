@@ -15,15 +15,15 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [About Styles](#about-styles)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
+- [My Process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+  - [What I Learned](#what-i-learned)
 - [Author](#author)
 
 
 ## Overview
 
-### The challenge
+### The Challenge
 
 The challenge was about build out this preview card component and get it looking as close to the design as possible.
 
@@ -31,16 +31,16 @@ The users should be able to:
 
 ✅ View the optimal layout depending on their device's screen size;
 
-❎ See hover states for interactive elements;
+✅ See hover states for interactive elements;
 
-## About styles
+## About Styles
 My task was to build out the project to the designs inside the `/design` folder. The designs are in JPG static format. Using JPGs will mean that I used my best judgment for styles such as `font-size`, `padding` and `margin`. Also information such as color palete and fonts can be found in `style-guide.md`.
 
 ### Screenshot
 
 ![](./design/screenshot.png)
 
-![](./design/active-state.gif)
+![](./design/activeState.gif)
 
 
 
@@ -51,20 +51,17 @@ My task was to build out the project to the designs inside the `/design` folder.
 
 ## My process
 
+You'll read about my process soon on my blog!
+
 ### Built with
 
-- Semantic HTML5 markupi
-- CSS custom properties
-- Flexbox
+- Semantic HTML5 markup;
+- CSS custom properties;
+- Flexbox.
 
-### Difficulties, problems and learning
+### What I Learned
 
-Things that isn't like the required desing:
-
-🟩 Opacity at .product image;
-🟩 Margin at .product-image bottom;
-🟩 Icon view almost invisible;
-
+The most challenge part to me was  at the `.produt-image` hover. When the user hovers over the element it changes to image opacity, adds a background color, and shows an icon on top of the product image, so it's a little bit more complex and requires more attention and understanding of properties such as position, overflow, opacity, transition and the `::after` selector. 
 
 ## Author
 
