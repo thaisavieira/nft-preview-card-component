@@ -37,7 +37,7 @@ main{
 }
 
 .product::after{
-    content: url(/images/icon-view.svg);
+    content: url(./images/icon-view.svg);
     background-color: var(--cyan);
     position: absolute;
     inset: 0;
