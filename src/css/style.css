@@ -8,14 +8,13 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--dark-blue-main);
-
+    background-color: var(--neutral-dark);
 }
 .container{
     width: 35rem;
     height: 58rem;
     border-radius: 1.5rem;
-    background-color: var(--dark-blue-card);
+    background-color: var(--neutral-dark-medium);
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
@@ -38,7 +37,7 @@ main{
 
 .product::after{
     content: url(/images/icon-view.svg);
-    background-color: var(--cyan);
+    background-color: var(--primary-medium);
     position: absolute;
     inset: 0;
     display: flex;
@@ -68,7 +67,7 @@ main{
     font-size: 1.8rem;
     letter-spacing: 0.15rem;
     font-weight: 400;
-    color: var(--soft-blue);
+    color: var(--primary-soft);
 }
 
 
@@ -79,7 +78,7 @@ main{
 }
 
 .price{
-    color: var(--cyan);
+    color: var(--primary-medium);
     font-weight: 500;
     font-size: 1.6rem;
     display: flex;
@@ -89,7 +88,7 @@ main{
 }
 
 .time-left{
-    color: var(--soft-blue);
+    color: var(--primary-soft);
     font-size: 1.6rem;
     display: flex;
     align-self: baseline;
@@ -97,7 +96,7 @@ main{
 }
 
 hr{
-    border-color: var(--soft-blue);
+    border-color: var(primary-soft);
 }
 
 footer{
@@ -105,7 +104,7 @@ footer{
     flex-direction: row;
     align-items: center;
     gap: 1.5rem;
-    color: var(--soft-blue);
+    color: var(--primary-soft);
     font-size: 1.6rem;
 
 }
@@ -120,7 +119,7 @@ footer span{
 }
 
  .title:hover, footer span:hover{
-    color: var(--cyan);
+    color: var(--primary-medium);
 }
 
 
@@ -132,5 +131,5 @@ footer span{
   }
 
   .attribution a {
-    color: var(--cyan);
+    color: var(--primary-medium);
   }
