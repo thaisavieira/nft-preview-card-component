@@ -1,6 +1,6 @@
 # Frontend Mentor - NFT preview card component solution
 
-![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)
+![Design preview for the NFT preview card component coding challenge](./src/design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
@@ -38,9 +38,9 @@ My task was to build out the project to the designs inside the `/design` folder.
 
 ### Screenshot
 
-![](./design/screenshot.png)
+![](./src/design/screenshot.png)
 
-![](./design/activeState.gif)
+![](./src/design/activeState.gif)
 
 
 
