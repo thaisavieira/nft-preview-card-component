@@ -49,9 +49,9 @@ main{
     border-radius: 1rem;
 }
 
-.container .image-link::after{
+ .image-link::after{
     content: '';
-    background: url(../images/icon-view.svg);
+    background-image: url(/images/icon-view.svg);
     background-position: center;
     background-repeat: no-repeat;
     position: absolute;
